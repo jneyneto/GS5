@@ -1,15 +1,23 @@
 import './styles.css';
-import HeaderDash from "../../components/HeaderDash"
-import apresentacao from "../../assets/gs5_apresentacao.png"
+import HeaderDash from "../../components/HeaderDash";
+import apresentacao from "../../assets/gs5_apresentacao.png";
+import bkg from "../../assets/gs5_bkg1.png";
+import contato from "../../assets/contato.png";
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+
   return (
     <div className="home">
       <HeaderDash />
+      <section className="home-background">
+        <img src={bkg} alt="" />
+      </section>
       <div className="home-body-position">
-        <section className="home-body">
 
-          <div className="home-body-about">
+        <section className="home-body" id="home-about">
+
+          <div className="home-body-about" >
             <img src={apresentacao} alt="" />
             <div className="home-body-about-hight">
               <h3>Sobre Nós</h3>
@@ -25,6 +33,19 @@ export default function Home() {
                 <br />
                 Entre em contato com a Gabriela Souza engenharia hoje para saber mais sobre seus serviços e como eles podem ajudar você a construir seu próximo projeto.
               </p>
+            </div>
+          </div>
+
+          <div className="home-section-line"> </div>
+          <div className="home-section-line" id="home-contact"> </div>
+
+          <div className="home-body-contact">
+            <div className="home-body-contact-left">
+              <img src={contato} alt="" />
+
+            </div>
+            <div className="home-body-contact-hight">
+              <h3>Contatos</h3>
             </div>
           </div>
         </section>
