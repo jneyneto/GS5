@@ -36,7 +36,7 @@ export default function HeaderDash() {
 			</div>
 			<nav className="header-navigation">
 				<a href="#home-about">Sobe Nós</a>
-				<a href="">Serviços</a>
+				<a href="#home-services">Serviços</a>
 				<a href="#home-contact">Contatos</a>
 			</nav>
 		</header>

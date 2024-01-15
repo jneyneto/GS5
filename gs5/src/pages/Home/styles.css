@@ -41,7 +41,8 @@
     text-align: justify;
 }
 
-.home-body-about {
+.home-body-about,
+.home-body-services {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,14 +50,17 @@
 }
 
 .home-body-about img,
-.home-body-contact-left img {
+.home-body-contact-left img,
+.home-body-services img,
+.home-body-contact-right img {
     min-width: 550px;
     max-width: 550px;
 
     border-radius: 20px;
 }
 
-.home-body-about-hight {
+.home-body-about-right,
+.home-body-services-left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,8 +70,9 @@
     gap: 30px;
 }
 
-.home-body-about-hight h3,
-.home-body-contact-hight h3 {
+.home-body-about-right h3,
+.home-body-services-left h3,
+.home-body-contact-right h3 {
     font-family: Montserrat, sans-serif;
     font-size: 28px;
     font-style: normal;
@@ -77,7 +82,8 @@
     color: #492525;
 }
 
-.home-body-about-hight p {
+.home-body-about-right p,
+.home-body-services-left p {
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -89,23 +95,46 @@
 
 .home-section-line {
     max-width: 100%;
-    margin: 30px 300px;
+    margin: 60px 300px;
 
     border: #49252557 1px solid;
 }
 
 .home-body-contact {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    min-height: 200px;
-}
-
-.home-body-contact-hight {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 2;
+    justify-content: center;
+
+    min-height: 200px;
+
+}
+
+.home-body-contact-top {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 830px;
+    height: 500px;
+
+    border-radius: 50px;
+
+    background-image: url("../../assets/gs5_bkg_contato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-body-contact-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 150px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+    background-color: #492525;
 }
