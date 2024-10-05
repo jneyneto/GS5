@@ -1,4 +1,4 @@
-import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { ContextProvider } from './contexts/MyContext';
 import Home from './pages/Home';
 import Folder from './pages/Folder';

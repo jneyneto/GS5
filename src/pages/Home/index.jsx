@@ -4,12 +4,9 @@ import FooterDash from "../../components/FooterDash";
 import apresentacao from "../../assets/gs5_apresentacao.png";
 import bkg from "../../assets/gs5_bkg1.png";
 import contato from "../../assets/contato.png";
-import contatos from "../../assets/gs5_bkg_contato.png";
 import ig from "../../assets/ig.png";
 import mail from "../../assets/mail.png";
 import wpp from "../../assets/wpp.png";
-import wpp_ from "../../assets/wpp_.png";
-import { useEffect, useState } from 'react';
 
 export default function Home() {
 
