@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  min-width: 100vw;
+  height: 90px;
+
+  background-color: #492525;
+}
+
+header img {
+  height: 60px;
+
+  border-radius: 12px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
+  flex-grow: 4;
+
+  min-height: calc(100vh - 103px);
+}
+
+.body button {
+  width: 150px;
+  height: 30px;
+
+  border: none;
+  border-radius: 16px;
+  background-color: #b16767cc;
+
+}
