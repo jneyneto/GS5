@@ -10,13 +10,13 @@ const Folder = () => {
       <img src={logo} alt="" />
     </header>
     <section className='body'>
-      <button>
+      <button className='pointer'>
         Site em construção ...
       </button>
-      <button onClick={() => { window.location.href = "https://wa.me/5584998188083?text=teste%20de%20teste" }}>
+      <button className='pointer' onClick={() => { window.location.href = "https://wa.me/5584998188083?text=teste%20de%20teste" }}>
         Jogo do tigrinho
       </button>
-      <button>
+      <button className='pointer'>
         Jogo do roleta
       </button>
 
