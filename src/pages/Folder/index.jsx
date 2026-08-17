@@ -9,16 +9,13 @@ const Folder = () => {
       <img src={logo} alt="" />
     </header>
     <section className='body'>
-      <button className='pointer' onClick={() => { window.location.href = "https://wa.me/5584998188083?text=teste%20de%20teste" }}>
-        Jogo do tigrinho
+      <button className='pointer' onClick={() => { window.location.href = "https://wa.me/556791012332?text=Olá%20!" }}>
+        whatsap
       </button>
-      <button className='pointer'>
-        Jogo do roleta
+      <button className='pointer' onClick={() => { window.location.href = "https://www.instagram.com/gamaengenhariaeagro?utm_source=qr" }}>
+        Instagran
       </button>
-      <button className='pointer'>
-        Site em construção ...
-      </button>
-    </section>
+     </section>
     <FooterDash />
 
   </>);
